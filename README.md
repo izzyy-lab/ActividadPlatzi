@@ -22,13 +22,13 @@ Gracias a este flujo de trabajo, varios desarrolladores pueden trabajar simultá
 
 ## Integrantes
 
-   **Ficha: 3256538**
+  **Ficha: 3256538**
 - Felipe Echeverri David 
 - Vicente Rios Vargas
 - Mariana López Palencia
 - Gian Franco Piedrahíta Díaz
   
-  **Ficha: 3256502**  
+**Ficha: 3256502**  
 - Daniela Bonilla Urrego 
 
 ## Objetivo de la actividad
