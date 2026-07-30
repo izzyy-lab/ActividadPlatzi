@@ -29,7 +29,10 @@ Gracias a este flujo de trabajo, varios desarrolladores pueden trabajar simultá
 - Gian Franco Piedrahíta Díaz
   
 **Ficha: 3256502**  
-- Daniela Bonilla Urrego 
+- Daniela Bonilla Urrego
+
+## LINK DE DESPLIEGUE:
+https://izzyy-lab.github.io/ActividadPlatzi/index.html
 
 ## Objetivo de la actividad
 
