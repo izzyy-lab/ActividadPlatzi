@@ -27,6 +27,7 @@ Gracias a este flujo de trabajo, varios desarrolladores pueden trabajar simultá
 - Vicente Rios Vargas
 - Mariana López Palencia
 - Gian Franco Piedrahíta Díaz
+  
   **Ficha: 3256502**  
 - Daniela Bonilla Urrego 
 
