@@ -958,6 +958,296 @@ button:hover{
 .school__icon--startup{ color:#ffd54f; }
 
 /*====================================
+=            Certificacion
+====================================*/
+
+/*========================================
+              HERO
+========================================*/
+
+.hero{
+    width:90%;
+    max-width:1300px;
+    margin:70px auto 120px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    gap:80px;
+}
+
+.hero-info{
+    flex:1;
+    max-width:560px;
+}
+
+.hero-info h1{
+    font-size:42px;
+    line-height:1.2;
+    font-weight:700;
+    margin-bottom:45px;
+}
+
+.hero-info span{
+    color:#00d084;
+}
+
+.hero-list{
+    display:flex;
+    flex-direction:column;
+    gap:25px;
+}
+
+.item{
+    display:flex;
+    align-items:flex-start;
+    gap:18px;
+}
+
+.icon{
+    width:42px;
+    height:42px;
+    min-width:42px;
+    border:2px solid #00d084;
+    border-radius:12px;
+    color:#00d084;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-size:18px;
+}
+
+.item h3{
+    color:#fff;
+    font-size:19px;
+    margin-bottom:5px;
+}
+
+.item p{
+    color:#8f99ad;
+    font-size:15px;
+    line-height:1.6;
+}
+
+/*========================================
+              IMAGEN
+========================================*/
+
+.hero-img{
+    flex:1;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    padding-top:20px;
+}
+
+.hero-img img{
+    width:100%;
+    max-width:620px;
+    display:block;
+    filter:drop-shadow(0 20px 40px rgba(0,0,0,.45));
+    animation:flotar 4s ease-in-out infinite;
+}
+
+@keyframes flotar{
+
+    0%{
+        transform:translateY(0);
+    }
+
+    50%{
+        transform:translateY(-12px);
+    }
+
+    100%{
+        transform:translateY(0);
+    }
+
+}
+
+/*========================================
+         CERTIFICACIONES
+========================================*/
+
+.certificaciones{
+    width:90%;
+    max-width:1300px;
+    margin:100px auto;
+}
+
+.certificaciones h2{
+    font-size:34px;
+    margin-bottom:35px;
+    font-weight:700;
+}
+
+.certificaciones h2 span{
+    color:#00d084;
+}
+
+.cards-certificaciones{
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    gap:24px;
+}
+
+.card-certificacion{
+    background:#1b2230;
+    border-radius:16px;
+    padding:22px;
+    min-height:150px;
+    border:1px solid transparent;
+    transition:.3s;
+}
+
+.card-certificacion:hover{
+    transform:translateY(-6px);
+    border-color:#00d084;
+    box-shadow:0 12px 25px rgba(0,0,0,.35);
+}
+
+.card-top{
+    display:flex;
+    align-items:flex-start;
+    gap:18px;
+    margin-bottom:18px;
+}
+
+.card-top img{
+    width:110px;
+    object-fit:contain;
+}
+
+.card-top p{
+    color:#c9d1d9;
+    font-size:15px;
+    line-height:1.5;
+}
+
+.card-certificacion hr{
+    border:none;
+    border-top:1px solid rgba(255,255,255,.08);
+    margin:15px 0;
+}
+
+.card-certificacion a{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    text-decoration:none;
+    color:#fff;
+    font-weight:600;
+    font-size:14px;
+}
+
+.card-certificacion a span{
+    color:#7b8798;
+    font-size:22px;
+    transition:.3s;
+}
+
+.card-certificacion:hover a span{
+    color:#00d084;
+}
+
+/*========================================
+          TABLET
+========================================*/
+
+@media(max-width:992px){
+
+.hero{
+    flex-direction:column;
+    text-align:center;
+    gap:50px;
+}
+
+.hero-info{
+    max-width:100%;
+}
+
+.hero-info h1{
+    font-size:36px;
+}
+
+.item{
+    justify-content:center;
+    text-align:left;
+}
+
+.hero-img{
+    width:100%;
+}
+
+.hero-img img{
+    max-width:450px;
+}
+
+.cards-certificaciones{
+    grid-template-columns:1fr;
+}
+
+.card-top{
+    align-items:center;
+}
+
+}
+
+/*========================================
+          CELULAR
+========================================*/
+
+@media(max-width:576px){
+
+.hero{
+    width:92%;
+    margin:50px auto;
+}
+
+.hero-info h1{
+    font-size:30px;
+}
+
+.item{
+    gap:15px;
+}
+
+.item h3{
+    font-size:17px;
+}
+
+.item p{
+    font-size:14px;
+}
+
+.icon{
+    width:38px;
+    height:38px;
+    min-width:38px;
+    font-size:15px;
+}
+
+.hero-img img{
+    max-width:320px;
+}
+
+.certificaciones h2{
+    font-size:28px;
+}
+
+.card-top{
+    flex-direction:column;
+    align-items:flex-start;
+}
+
+.card-top img{
+    width:90px;
+}
+}
+
+
+
+
+/*====================================
 =            Responsive
 ====================================*/
 
